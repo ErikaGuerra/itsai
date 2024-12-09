@@ -14,9 +14,9 @@
             <declare name="scriviNumeroUno" type="Integer" array="False" size=""/>
             <declare name="ScriviNumero2" type="Integer" array="False" size=""/>
             <output expression="&quot;scrivi Numero 1&quot;" newline="True"/>
-            <input variable="scriviNumeroUno"/>
+            <input variable="scriviNumerodue"/>
             <output expression="&quot;Scrivi numero 2&quot;" newline="True"/>
-            <input variable="ScriviNumero2"/>
+            <input variable="ScriviNumero1"/>
             <if expression="scriviNumeroUno&gt;ScriviNumero2">
                 <then>
                     <output expression="&quot;scrivi A&quot;" newline="True"/>
