@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="esempio se"/>
+        <attribute name="authors" value="ITS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-19 12:21:13 "/>
+        <attribute name="created" value="SVRTO0lUUy1QMDg7MjAyNC0xMS0xOTsiMTE6NTE6MDYgIjsxODk4"/>
+        <attribute name="edited" value="SVRTO0lUUy1QMDg7MjAyNC0xMS0xOTsiMTI6MjE6MTMgIjsxOzIwMDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="scriviNumeroUno" type="Integer" array="False" size=""/>
+            <declare name="ScriviNumero2" type="Integer" array="False" size=""/>
+            <output expression="&quot;scrivi Numero 1&quot;" newline="True"/>
+            <input variable="scriviNumeroUno"/>
+            <output expression="&quot;Scrivi numero 2&quot;" newline="True"/>
+            <input variable="ScriviNumero2"/>
+            <if expression="scriviNumeroUno&gt;ScriviNumero2">
+                <then>
+                    <output expression="&quot;scrivi A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;scrivi B&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
